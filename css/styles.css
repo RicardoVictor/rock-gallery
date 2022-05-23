@@ -20,13 +20,13 @@ header {
 }
 
 .albums-container {
-    max-width: 1200px;
-    margin: 0 auto
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 30%;
-    display: inline-block;
+    width: 350px;
     margin: 1%;
 }
 
